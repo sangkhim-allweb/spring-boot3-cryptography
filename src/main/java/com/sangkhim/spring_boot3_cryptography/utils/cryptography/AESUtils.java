@@ -25,6 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor(access = PRIVATE)
 public final class AESUtils {
+
   private static final int IV_SIZE = 16;
   private static final String TRANSFORMATION = "AES/GCM/NoPadding";
   private static final int AUTH_TAG_LENGTH = 128;
