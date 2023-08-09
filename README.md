@@ -1,5 +1,9 @@
 # Spring Boot 3 Cryptography
 
+Combining RSA + AES Encryption to secure REST Endpoint With Sensitive Data
+
+https://medium.com/batc/combining-rsa-aes-encryption-to-secure-rest-endpoint-with-sensitive-data-eb3235b0c0cc
+
 ## swagger
 
     http://localhost:8080/api/
