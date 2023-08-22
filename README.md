@@ -10,6 +10,8 @@ https://travistidwell.com/jsencrypt/
 
 https://codepen.io/ryantriangles/pen/RyPgEW
 
+https://www.javainuse.com/rsagenerator
+
 JS AES
 
 https://medium.com/@jpatwa/java-encryption-javascript-decryption-using-aes-algorithm-4037ce09a2d3
