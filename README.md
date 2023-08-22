@@ -16,7 +16,7 @@ JS AES
 
 https://medium.com/@jpatwa/java-encryption-javascript-decryption-using-aes-algorithm-4037ce09a2d3
 
-https://jsbin.com/memenobaca/1/edit?html,console
+https://jsbin.com/luwiyejaku/1/edit?html,console
 
 ## swagger
 
