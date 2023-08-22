@@ -1,0 +1,35 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+
+<script type="text/javascript">
+
+    // console.log('crypto-js', CryptoJS);
+
+    var encryptedBase64Key = 'ct4aWGilX1qrsEHZJMf6Jw==';
+    var parsedBase64Key = CryptoJS.enc.Base64.parse(encryptedBase64Key);
+
+    // Encryption process
+    var plainText = "Hello world!";
+    console.log("plainText = " + plainText);
+
+    // this is Base64-encoded encrypted data
+    var encryptedData = CryptoJS.AES.encrypt(plainText, parsedBase64Key, {
+        mode: CryptoJS.mode.ECB,
+        padding: CryptoJS.pad.Pkcs7
+    });
+    console.log("encryptedData = " + encryptedData);
+
+
+
+    // Decryption process
+    var encryptedCipherText = 'GHZlQaf4t2YRbgujtHme2g==';
+    var decryptedData = CryptoJS.AES.decrypt(encryptedCipherText, parsedBase64Key, {
+        mode: CryptoJS.mode.ECB,
+        padding: CryptoJS.pad.Pkcs7
+    });
+    console.log("DecryptedData = " + decryptedData);
+
+    // this is the decrypted data as a string
+    var decryptedText = decryptedData.toString(CryptoJS.enc.Utf8);
+    console.log("DecryptedText = " + decryptedText);
+
+</script>
