@@ -42,7 +42,7 @@ public final class RsaUtils {
 
   public static String encryptMessage(String plainText, PublicKey publicKey) {
     try {
-      Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
+      Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
       cipher.init(Cipher.ENCRYPT_MODE, publicKey);
       byte[] encrypt = cipher.doFinal(plainText.getBytes());
       return Base64.getEncoder().encodeToString(encrypt);
@@ -64,7 +64,7 @@ public final class RsaUtils {
 
   public static String decryptMessage(String encryptedMessage, PrivateKey privateKey) {
     try {
-      Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
+      Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
       cipher.init(Cipher.DECRYPT_MODE, privateKey);
       byte[] decrypt = cipher.doFinal(Base64.getDecoder().decode(encryptedMessage));
       return new String(decrypt);
