@@ -4,9 +4,17 @@ Combining RSA + AES Encryption to secure REST Endpoint With Sensitive Data
 
 https://medium.com/batc/combining-rsa-aes-encryption-to-secure-rest-endpoint-with-sensitive-data-eb3235b0c0cc
 
+JS RSA
+
 https://travistidwell.com/jsencrypt/
 
 https://codepen.io/ryantriangles/pen/RyPgEW
+
+JS AES
+
+https://medium.com/@jpatwa/java-encryption-javascript-decryption-using-aes-algorithm-4037ce09a2d3
+
+https://jsbin.com/memenobaca/1/edit?html,console
 
 ## swagger
 
