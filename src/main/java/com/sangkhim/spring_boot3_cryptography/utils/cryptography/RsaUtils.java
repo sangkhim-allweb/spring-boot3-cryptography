@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor(access = PRIVATE)
-public final class RSAUtils {
+public final class RsaUtils {
 
   public static Map<String, Object> createKeys() {
     try {
