@@ -28,7 +28,9 @@ https://jsbin.com/luwiyejaku/1/edit?html,console
 
 ## other
 
+    EnvFile
     Google Java Format
     SonaLint
     CheckStyle-IDEA
+    GitHub Copilot
     Disable import * (Settings -> Editor -> Code Syle -> Java -> Imports)
